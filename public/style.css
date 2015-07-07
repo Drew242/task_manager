@@ -1,0 +1,20 @@
+html {
+  /*background: blue;*/
+  background-image: url('background_blue.jpg') !important;
+  background-size: cover;
+}
+body {
+  background-image: url('black_wood.png');
+  color: #4f9ac2;
+  padding-top: 25px;
+  margin: auto;
+  width: 40%;
+  padding-bottom: 20px;
+}
+.container {
+  margin: auto;
+  width: 80%;
+}
+a:hover, a:link, a:visited, a:active {
+  color: white;
+}

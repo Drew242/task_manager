@@ -4,14 +4,9 @@
   <link rel="stylesheet" href="/style.css">
   <title>My Sinatra Application</title>
 </head>
-
-<div class = "container">
+<div class ="container">
   <body>
-    <a href="/tasks">Task Index</a>
-
-    <h1><%= @task.title %></h1>
-
-    <p><%= @task.description %></p>
+    <%= yield %>
   </body>
 </div>
 </html>
